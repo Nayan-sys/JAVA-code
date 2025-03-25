@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Arrays {
 
 
-//    Problem 1! Read the name from the user and print the name:
+//    Problem 1! Read the name from the user and print the name:5
+
      public static void main(String []args) {
          Scanner sc = new Scanner(System.in);
          System.out.print("Enter the size of an array: ");
