@@ -1,0 +1,33 @@
+import java.util.*;
+public class TwoDArray {
+    public static void main(String[] args) {
+
+//        Problem ! Enter the elements of a 2D array given by the user and one element
+//                   that is also given by the user and find the indices of the number:
+
+       Scanner sc=new Scanner(System.in);
+       System.out.print("Enter the rows: ");
+       int rows=sc.nextInt();
+       System.out.print("Enter the columns: ");
+       int cols=sc.nextInt();
+       int num[][]=new int [rows][cols];
+//        for input
+//        for rows
+       for(int i=0;i<rows;i++){
+//            for columns
+           for(int j=0;j<cols;j++){
+               num[i][j]=sc.nextInt();
+           }
+       }
+       System.out.print("Enter the number you want to search: ");
+       int x=sc.nextInt();
+//        for output
+       for(int i=0;i<rows;i++){
+           for(int j=0;j<cols;j++){
+               if(x==num[i][j]){
+                   System.out.println("The number "+x+" is found at location "+"("+i+","+j+")");
+               }
+           }
+       }
+    }
+}
