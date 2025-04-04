@@ -15,7 +15,7 @@ class Missing_term{
             arr[i]=sc.nextInt();
         }
 //       logic for missing number
-        for(int i=0;i< arr.length;i++){
+        for(int i=0;i< arr.length;i++){ 
             sum+=arr[i];
         }
         int total_sum=act_sum-sum;
