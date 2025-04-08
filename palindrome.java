@@ -1,3 +1,5 @@
+
+import java.util.lang;
 public class palindrome {
     
         public boolean isPalindrome(int x) {
